@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{background-color: #017DDD}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 2.5rem;
+
+}
+.wrapper-title{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-image:url("../img/bg-img.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.prop-wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.prop-item{
+    margin-bottom: 1rem;
+    width: 50%;
+    text-align: center;
+    font-family: 'Rubik',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+.header-title{
+    white-space: nowrap;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #134353;
+}
+.header-desc{
+    font-weight: 700;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 1rem;
+    margin:4rem 0 2rem 0;
+    width: 100% ;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+.header-desc2{
+    font-weight: 400;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 0.8rem;
+
+    width: 100% ;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+}
+.elipse-img{
+
+    object-fit: fill;
+    width: 100%;
+}
+.phones-img{
+    object-fit: cover;
+    width: 30%;
+}
+.phones-wrapper{
+    max-width: 764px;
+    height: auto;
+    display: flex;
+    margin: 1rem auto 0;
+    align-items: center;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.phones-block{
+    display: flex;
+
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    height:auto !important;
+    width: 100vw;
+}
+
+.team-block_title{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #E7E2E1;
+    margin-bottom: 2rem;
+}
+.team-members-block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.member-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.member-image{
+    width: 100%
+
+}
+.member-info{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.member-name{
+    color: #DCCBC4;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 20px;
+}
+.member-job{
+    color: #DCCBC4;
+    font-weight: 700;
+    font-size: 16px;
+}
+.create-desc{
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    text-transform: capitalize;
+}
+.work-wrapper{
+    color: white;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 2.5rem 0 2.5rem ;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+.stages-list_block{
+    background-color: #792785;
+    width: fit-content;
+    font-size: 1rem;
+    padding: 1rem 1rem 1rem 2rem;
+    white-space: nowrap;
+    font-family: 'Rubik',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #DCCBC4;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.app-info_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+.app-info_title img{
+    margin-right: 1rem;
+    width: 4rem;
+}
+.app-info_title a{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+.app-info_title a:visited{
+    color: #FFFFFF !important;
+}
+.app-info_block desc{
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #352C2C;
+}
+.gp-logo{
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gp-logo img{
+    height: 48px;
+    border-radius: 8px;
+}
+.privacy-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+    white-space: nowrap;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 8px;
+
+}
+.card-title{
+    color: black;
+    font-weight: 700;
+    text-align: left;
+    padding: 20px;
+    font-size: 1.6rem;
+}
+.main-text{
+    font-size: 1rem;
+    font-family: 'Moulpali', cursive;
+    font-weight: 400;
+    line-height: 1.2rem;
+    color: white;
+}
+.text-title{
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Moulpali', cursive;
+}
+ol li{
+    font-family: 'Moulpali', cursive;
+    list-style-type: none;
+    line-height: 1.2rem;
+    color: white;
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+@media screen and (min-width: 768px) {
+    .main-text{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .header-title{
+        font-size: 5rem;
+    }
+    .header-desc{
+        font-size: 2rem;
+    }
+    .header-desc2{
+        font-size: 1.6rem;
+        margin:0 0 3rem 0;
+    }
+    .create-desc{
+        font-size: 1.6rem;
+    }
+    .stages-list_block{
+        font-size: 2rem;
+        padding: 1rem 2rem 1rem 3rem;
+    }
+    .app-info_block desc{
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .work-wrapper{
+        font-size: 1.6rem;
+    }
+    .card-list li{
+        font-size: 1rem;
+    }
+}
